@@ -1,5 +1,7 @@
 # FlappyWatch
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 watchOS prototype: Flappy Bird, but the only input is the Digital Crown -- no tap, no button.
 
 Created by oyoroi.com as a tech experiment for Apple Watch games using the digital crown.
