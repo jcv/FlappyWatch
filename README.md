@@ -2,6 +2,8 @@
 
 watchOS prototype: Flappy Bird, but the only input is the Digital Crown -- no tap, no button.
 
+Created by oyoroi.com as a tech experiment for Apple Watch games using the digital crown.
+
 Built with SwiftUI (`Canvas` + `TimelineView`, no SpriteKit) as a standalone watch app, same
 pattern as [WatchOut](../WatchOut) and [CrownSteer](../CrownSteer).
 
