@@ -4,6 +4,8 @@
 
 watchOS prototype: Flappy Bird, but the only input is the Digital Crown -- no tap, no button.
 
+<img src="screenshots/start-screen.png" alt="FlappyWatch start screen" width="200">
+
 Created by oyoroi.com as a tech experiment for Apple Watch games using the digital crown.
 
 Built with SwiftUI (`Canvas` + `TimelineView`, no SpriteKit) as a standalone watch app, same
