@@ -18,12 +18,12 @@ fixed threshold the bird flaps once. Gravity pulls the bird down continuously, s
 original game. Spin faster and you flap more often, same relationship as tapping faster in
 the original -- it's meant to feel like winding a reel, not like steering.
 
-## Status: untested on device
+## Status: tested successfully on device
 
-Builds and runs in the Simulator (gravity, floor/ceiling death, pipe spawning/scrolling/scoring,
-and the ready/game-over overlays all verified there), but the Digital Crown isn't drivable from
-the Simulator -- the flap mechanic itself needs a real Watch to feel-test. `flapSpinThreshold`,
-`flapImpulse`, and `gravity` in `GameEngine.swift` are the tuning knobs if the cadence feels off.
+Builds and runs on both the Simulator and a physical Apple Watch -- gravity, floor/ceiling
+death, pipe spawning/scrolling/scoring, the ready/game-over overlays, and the Digital Crown
+flap mechanic have all been verified. `flapSpinThreshold`, `flapImpulse`, and `gravity` in
+`GameEngine.swift` are the tuning knobs if the cadence feels off.
 
 ## Project layout
 
